@@ -24,4 +24,4 @@ After installation, copy the printed `AFX proxy_url` into the proxy address fiel
 ## Files
 
 - `install-proxy-from-github.sh`: downloads the packaged installer from this repository and runs it
-- `dist/nofx-proxy-installer-20260329-152919.tar.gz`: packaged proxy installer bundle
+- `dist/afx-proxy-installer-20260503.tar.gz`: packaged proxy installer bundle

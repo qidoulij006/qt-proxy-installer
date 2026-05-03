@@ -4,12 +4,12 @@ set -euo pipefail
 
 DEFAULT_REPO="qidoulij006/qt-proxy-installer"
 DEFAULT_REF="main"
-DEFAULT_ASSET_PATH="dist/nofx-proxy-installer-20260329-152919.tar.gz"
+DEFAULT_ASSET_PATH="dist/afx-proxy-installer-20260503.tar.gz"
 
 GITHUB_REPO="${GITHUB_REPO:-$DEFAULT_REPO}"
 GITHUB_REF="${GITHUB_REF:-$DEFAULT_REF}"
 ASSET_PATH="${ASSET_PATH:-$DEFAULT_ASSET_PATH}"
-WORK_DIR="${WORK_DIR:-/tmp/nofx-proxy-installer}"
+WORK_DIR="${WORK_DIR:-/tmp/afx-proxy-installer}"
 
 usage() {
     cat <<'EOF'
@@ -19,8 +19,8 @@ Usage:
 Options:
   --repo OWNER/REPO       GitHub repository, default qidoulij006/qt-proxy-installer
   --ref REF               Git ref, default main
-  --asset-path PATH       Tarball path in repo, default dist/nofx-proxy-installer-20260329-152919.tar.gz
-  --work-dir DIR          Temp work directory, default /tmp/nofx-proxy-installer
+  --asset-path PATH       Tarball path in repo, default dist/afx-proxy-installer-20260503.tar.gz
+  --work-dir DIR          Temp work directory, default /tmp/afx-proxy-installer
   --help                  Show this help
 
 Examples:
