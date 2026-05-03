@@ -1,6 +1,6 @@
 # qt-proxy-installer
 
-GitHub installer for the NOFX SOCKS5 proxy package.
+GitHub installer for the AFX SOCKS5 proxy package.
 
 ## Install
 
@@ -19,7 +19,7 @@ The installer uses these defaults:
 - Bind address: `0.0.0.0`
 
 The generated password is the SOCKS5 proxy password, not the cloud host login password.
-After installation, copy the printed `NOFX proxy_url` into the proxy address field.
+After installation, copy the printed `AFX proxy_url` into the proxy address field.
 
 ## Files
 
