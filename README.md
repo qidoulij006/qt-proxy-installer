@@ -5,9 +5,21 @@ GitHub installer for the NOFX SOCKS5 proxy package.
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/qidoulij006/qt-proxy-installer/main/install-proxy-from-github.sh | \
-sudo bash -s -- --username nofx --password 'strong-pass'
+wget https://raw.githubusercontent.com/qidoulij006/qt-proxy-installer/main/install-proxy-from-github.sh -O qt-install.sh
+cat qt-install.sh
+chmod +x qt-install.sh
+sudo ./qt-install.sh
 ```
+
+The installer uses these defaults:
+
+- SOCKS5 username: `afx`
+- SOCKS5 password: auto-generated 8-character password
+- Port: `1080`
+- Bind address: `0.0.0.0`
+
+The generated password is the SOCKS5 proxy password, not the cloud host login password.
+After installation, copy the printed `NOFX proxy_url` into the proxy address field.
 
 ## Files
 
