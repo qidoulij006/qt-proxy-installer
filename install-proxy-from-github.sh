@@ -24,11 +24,12 @@ Options:
   --help                  Show this help
 
 Examples:
-  curl -fsSL https://raw.githubusercontent.com/qidoulij006/qt-proxy-installer/main/install-proxy-from-github.sh | \
-    sudo bash -s -- --username nofx --password 'strong-pass'
+  wget https://raw.githubusercontent.com/qidoulij006/qt-proxy-installer/main/install-proxy-from-github.sh -O qt-install.sh
+  chmod +x qt-install.sh
+  sudo ./qt-install.sh
 
   curl -fsSL https://raw.githubusercontent.com/qidoulij006/qt-proxy-installer/main/install-proxy-from-github.sh | \
-    sudo bash -s -- --repo qidoulij006/qt-proxy-installer --ref main --username nofx --password 'strong-pass'
+    sudo bash -s -- --username afx --port 1080
 EOF
 }
 
